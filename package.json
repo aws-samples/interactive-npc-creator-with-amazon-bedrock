@@ -19,7 +19,7 @@
     "@cloudscape-design/chat-components": "^1.0.10",
     "@cloudscape-design/components": "^3.0.738",
     "aws-amplify": "^6.6.0",
-    "next": "14.2.8",
+    "next": "14.2.10",
     "react": "^18",
     "react-dom": "^18",
     "uuid": "^10.0.0"

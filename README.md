@@ -1,7 +1,6 @@
-# Dynamic NPC dialog with Gen AI
+# Interactive NPC Creator powered by Amazon Bedrock
 
-This repository is a 'Game NPC(Non-Player Character) Playground' to design, develop(prompt-engineering), and test game NPCs that interect with players more naturally using dynamic dialogue powered by Amazon Bedrock.
-
+This repository is a swift prototyping tool for interactive game NPCs powered by Amazon Bedrock. This toolkit enables developers to quickly create, visualize, and test dynamic character concepts. Featuring AI-driven dialogue and image generation, it streamlines prompt engineering and personality development. Ideal for rapid iteration in game development, from concept to pre-production. Accelerate your NPC design process and bring characters to life efficiently.
 
 <!-- https://github.com/user-attachments/assets/ -->
 

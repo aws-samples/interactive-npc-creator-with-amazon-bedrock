@@ -51,10 +51,11 @@ const VOICE_OPTIONS = [
 
 const FOUNDATION_MODEL_OPTIONS = [
   { label: "Claude 3.5 Sonnet", value: "anthropic.claude-3-sonnet-20240229-v1:0" },
-  { label: "Claude 3 Haiku", value: "anthropic.claude-3-haiku-20240307-v1:0" },
-  { label: "Nova Pro", value: "amazon.nova-pro-v1:0" },
-  { label: "Nova Lite", value: "amazon.nova-lite-v1:0" },
-  { label: "Nova Micro", value: "amazon.nova-micro-v1:0" }
+  { label: "Claude 3 Haiku", value: "anthropic.claude-3-haiku-20240307-v1:0" }
+  // ,
+  // { label: "Nova Pro", value: "amazon.nova-pro-v1:0" },
+  // { label: "Nova Lite", value: "amazon.nova-lite-v1:0" },
+  // { label: "Nova Micro", value: "amazon.nova-micro-v1:0" }
 ];
 
 const LANGUAGE_OPTIONS = [
@@ -81,8 +82,8 @@ const INITIAL_USER_GREETING = {
 };
 
 const NPCChat = ({ params }: { params: { id: string } }) => {
-  const { id } = params;
-
+  const unwrappedParams = React.use(params);
+  const { id } = unwrappedParams;
   const [npc, setNpc] = useState<any | null>(null);
   const [dialogue, setDialogue]: any = useState([]);
   const [inputText, setInputText] = useState('');

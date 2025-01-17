@@ -1,4 +1,7 @@
 {
-  "extends": ["next/core-web-vitals"]
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "@next/next/no-direct-param-access": "off"
+  }
   // , "next/typescript"
 }

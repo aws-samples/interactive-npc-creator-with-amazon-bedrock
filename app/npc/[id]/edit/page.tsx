@@ -10,8 +10,6 @@ import { Flashbar, FlashbarProps } from '@cloudscape-design/components';
 const UpdateNPCPage = ({ params }: { params: { id: string } }) => {
   const router = useRouter();
   const { id } = params;
-  const [saveStatus, setSaveStatus] = useState<FlashbarProps.MessageDefinition[]>([]);
-
   useEffect(() => {
     if (!id) {
       // Redirect to the NPC list page or show an error if no ID is provided
